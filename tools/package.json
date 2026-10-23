@@ -1,0 +1,13 @@
+{
+  "name": "curtaincall-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline tooling (report generation). Not part of the app runtime.",
+  "scripts": {
+    "docx": "node generate-metrics-docx.js"
+  },
+  "dependencies": {
+    "docx": "^9.0.2"
+  }
+}
